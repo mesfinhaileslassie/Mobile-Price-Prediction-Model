@@ -265,7 +265,7 @@ print(f"\nFirst 5 values of y:\n{y.head().tolist()}")
 test_ids = test_df['id']
 X_test = test_df.drop(columns=['id'])
 
-print(f"\nTest IDs shape:      {test_ids.shape}")
+print(f"\nTest IDs shape:{test_ids.shape}")
 print(f"Test Features shape: {X_test.shape}")
 
 # -------------------------------------------------
@@ -737,9 +737,6 @@ for i in range(4):
 
 plt.tight_layout()
 plt.show()
-
-
-
 
 
 
